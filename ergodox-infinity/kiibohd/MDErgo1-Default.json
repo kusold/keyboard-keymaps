@@ -10,9 +10,7 @@
         "Generator": "KIICONF 0.2",
         "Variant": ""
     },
-    "defines": [
-
-    ],
+    "defines": [],
     "matrix": [
         {
             "code": "0x02",
@@ -124,7 +122,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKTICK",
+                    "key": "`",
                     "label": "`"
                 },
                 "2": {
@@ -141,7 +139,7 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "LBRACE",
+                    "key": "[",
                     "label": "["
                 }
             }
@@ -198,7 +196,7 @@
                 },
                 "1": {
                     "key": "#:mouseOut( 0, 0, -5 )",
-                    "label": "\u2191 x5"
+                    "label": "↓ x5"
                 }
             }
         },
@@ -271,7 +269,7 @@
                 },
                 "1": {
                     "key": "#:mouseOut( 0, 5, 0 )",
-                    "label": "\u2192 x5"
+                    "label": "→ x5"
                 }
             }
         },
@@ -288,7 +286,7 @@
                 },
                 "1": {
                     "key": "#:mouseOut( 0, 0, 5 )",
-                    "label": "\u2193 x5"
+                    "label": "↑ x5"
                 }
             }
         },
@@ -305,7 +303,7 @@
                 },
                 "1": {
                     "key": "#:mouseOut( 0, -5, 0 )",
-                    "label": "\u2190 x5"
+                    "label": "← x5"
                 }
             }
         },
@@ -317,7 +315,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "ESCAPE",
+                    "key": "ESC",
                     "label": "ESC"
                 }
             }
@@ -330,12 +328,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
+                    "key": "CONS:PAUSE PLAY",
+                    "label": "PL/PS"
                 },
                 "1": {
-                    "key": "CONS:MUTE",
-                    "label": "MUTE"
+                    "key": "#:U\"Mute\" + CONS\"Mute\"",
+                    "label": "MUT"
                 }
             }
         },
@@ -351,7 +349,7 @@
                     "label": "DEL"
                 },
                 "1": {
-                    "key": "CONS:SCANPREVIOUSTRACK",
+                    "key": "CONS:SCAN PREVIOUS TRACK",
                     "label": "PREV"
                 }
             }
@@ -447,7 +445,7 @@
             "layers": {
                 "0": {
                     "key": "LSHIFT",
-                    "label": "L\u21d1"
+                    "label": "L⇑"
                 }
             }
         },
@@ -463,7 +461,7 @@
                     "label": "HOME"
                 },
                 "1": {
-                    "key": "CONS:VOLUMEUP",
+                    "key": "#:U\"Volume Up\" + CONS\"Volume Up\"",
                     "label": "VOL+"
                 }
             }
@@ -480,7 +478,7 @@
                     "label": "END"
                 },
                 "1": {
-                    "key": "CONS:VOLUMEDOWN",
+                    "key": "#:U\"Volume Down\" + CONS\"Volume Down\"",
                     "label": "VOL-"
                 }
             }
@@ -497,7 +495,7 @@
                     "label": "BKSP"
                 },
                 "1": {
-                    "key": "CONS:SCANNEXTTRACK",
+                    "key": "CONS:SCAN NEXT TRACK",
                     "label": "NEXT"
                 }
             }
@@ -511,11 +509,11 @@
             "layers": {
                 "0": {
                     "key": "SPACE",
-                    "label": "[&nbsp;]"
+                    "label": "[ ]"
                 },
                 "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
+                    "key": "CONS:PAUSE PLAY",
+                    "label": "PL/PS"
                 }
             }
         },
@@ -527,7 +525,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK2",
+                    "key": "#:LayerLock[2]",
                     "label": "LOCK-2"
                 }
             }
@@ -540,7 +538,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK1",
+                    "key": "#:LayerLock[1]",
                     "label": "LOCK-1"
                 }
             }
@@ -694,8 +692,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "MINUS",
-                    "label": "-"
+                    "key": "F11",
+                    "label": "F11"
                 },
                 "2": {
                     "key": "#:flashMode()",
@@ -711,7 +709,7 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "EQUALS",
+                    "key": "=",
                     "label": "="
                 }
             }
@@ -750,7 +748,7 @@
                 },
                 "2": {
                     "key": "#:mouseOut( 0, 0, -1 )",
-                    "label": "\u2191 x1"
+                    "label": "↓ x1"
                 }
             }
         },
@@ -813,8 +811,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
+                    "key": "F12",
+                    "label": "F12"
                 }
             }
         },
@@ -831,7 +829,7 @@
                 },
                 "2": {
                     "key": "#:mouseOut( 0, -1, 0 )",
-                    "label": "\u2190 x1"
+                    "label": "← x1"
                 }
             }
         },
@@ -852,7 +850,7 @@
                 },
                 "2": {
                     "key": "#:mouseOut( 0, 0, 1 )",
-                    "label": "\u2193 x1"
+                    "label": "↑ x1"
                 }
             }
         },
@@ -873,7 +871,7 @@
                 },
                 "2": {
                     "key": "#:mouseOut( 0, 1, 0 )",
-                    "label": "\u2192 x1"
+                    "label": "→ x1"
                 }
             }
         },
@@ -902,7 +900,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "SEMICOLON",
+                    "key": ";",
                     "label": ";"
                 }
             }
@@ -915,7 +913,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "QUOTE",
+                    "key": "'",
                     "label": "'"
                 }
             }
@@ -954,8 +952,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "#:Layer[1]",
+                    "label": "ƒ1"
                 }
             }
         },
@@ -1005,7 +1003,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "COMMA",
+                    "key": ",",
                     "label": ","
                 },
                 "1": {
@@ -1026,7 +1024,7 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PERIOD",
+                    "key": ".",
                     "label": "."
                 },
                 "1": {
@@ -1043,8 +1041,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "SLASH",
-                    "label": "\/"
+                    "key": "/",
+                    "label": "/"
                 }
             }
         },
@@ -1057,7 +1055,7 @@
             "layers": {
                 "0": {
                     "key": "RSHIFT",
-                    "label": "R\u21d1"
+                    "label": "R⇑"
                 }
             }
         },
@@ -1096,10 +1094,10 @@
             "layers": {
                 "0": {
                     "key": "ENTER",
-                    "label": "\u21b5"
+                    "label": "↵"
                 },
                 "1": {
-                    "key": "CONS:BRIGHTNESSDECREMENT",
+                    "key": "CONS:BRIGHTNESS DECREMENT",
                     "label": "SCRN-"
                 }
             }
@@ -1113,10 +1111,10 @@
             "layers": {
                 "0": {
                     "key": "SPACE",
-                    "label": "[&nbsp;]"
+                    "label": "[ ]"
                 },
                 "1": {
-                    "key": "CONS:BRIGHTNESSINCREMENT",
+                    "key": "CONS:BRIGHTNESS INCREMENT",
                     "label": "SCRN+"
                 }
             }
@@ -1130,7 +1128,7 @@
             "layers": {
                 "0": {
                     "key": "LEFT",
-                    "label": "\u2190"
+                    "label": "←"
                 }
             }
         },
@@ -1143,7 +1141,7 @@
             "layers": {
                 "0": {
                     "key": "DOWN",
-                    "label": "\u2193"
+                    "label": "↓"
                 },
                 "1": {
                     "key": "P0",
@@ -1160,7 +1158,7 @@
             "layers": {
                 "0": {
                     "key": "UP",
-                    "label": "\u2191"
+                    "label": "↑"
                 },
                 "1": {
                     "key": "P.",
@@ -1177,7 +1175,7 @@
             "layers": {
                 "0": {
                     "key": "RIGHT",
-                    "label": "\u2192"
+                    "label": "→"
                 },
                 "1": {
                     "key": "P=",
@@ -1193,10 +1191,15 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "#:Layer[2]",
+                    "label": "ƒ2"
                 }
             }
         }
-    ]
+    ],
+    "leds": [],
+    "custom": {},
+    "animations": {},
+    "macros": {},
+    "canned": {}
 }
