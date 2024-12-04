@@ -1,8 +1,24 @@
 # keyboard-keymaps
 Keymaps for my Keyboards
 
-## Ergodox Infinity
+## Keyboards
+* [Ergodox Infinity](./ergodox-infinity/README.md)
+  * qmk
+  * kiibohd
 
-* Ordered 5/30/17 for $207.99 without Keycaps, but with Cherry MX Blue Switches
-* Received 9/15/17
-* DSA Sublimated KeyCaps ordered from PimpMyKeyboard on 8/28/17. $134.77
+## Firmware
+These are listed in order of preference.
+
+### Via
+Builds on QMK and allows real-time keymap changes without flashing. Supports fewer keyboards than QMK.
+
+### QMK (Quantum Mechanical Keyboard)
+Open Source keyboard firmware with broad community support.
+
+### Kiibohd (KLL - Keyboard Layout Language)
+Primarily used for Input Club keyboards.
+
+
+
+## Documentation
+To collect keymap screenshots for QMK: Go to the Print Page, open dev-tools, click on the node that contains that rendered keymaps, then screenshot the node.
